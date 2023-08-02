@@ -34,6 +34,7 @@ body{
   flex: 10%;
   /* border: 1px solid greenyellow; */
   text-align: left;
+  text-decoration: none;
 }
 
 .logo h1{
@@ -120,8 +121,9 @@ body{
   /* position: absolute;
   top: 484px;
   left: 0px; */
-  
+  text-decoration: none;
 }
+
 
 .join-btn .h2-join-btn{
 
@@ -132,6 +134,10 @@ body{
   font-weight: 600;
   line-height: 22px;
   letter-spacing: 1px;
+}
+
+.h2-join-btn:hover{
+  border-bottom: 4px solid #fafaf9;
 }
 
 .container .container-featured{
@@ -390,6 +396,7 @@ body{
   border-radius: 12px;
   flex-shrink: 0;
   background: #323443;
+  text-decoration: none;
 }
 
 .block-programs{
@@ -401,6 +408,7 @@ body{
   border-radius: 12px;
   flex-shrink: 0;
   background: #232532;
+  text-decoration: none;
 }
 
 .block-plans{
@@ -412,6 +420,7 @@ body{
   border-radius: 12px;
   flex-shrink: 0;
   background: #323443;
+  text-decoration: none;
 }
 
 .block-access{
@@ -423,6 +432,7 @@ body{
   border-radius: 12px;
   flex-shrink: 0;
   background: #4F5261;
+  text-decoration: none;
 }
 
 .b-img{
@@ -488,6 +498,7 @@ body{
 .see-more{
   width: 110px;
   display: flex;
+  text-decoration: none;
 }
 
 .see-more p{
@@ -677,6 +688,7 @@ body{
   display: flex;
   flex-direction: row;
   margin: 120px 360.78px 77px 68px;
+  text-decoration: none;
 }
 
 .seemore-free .p-free{
@@ -716,6 +728,7 @@ body{
   padding: 4px 14px 4px 14px;
   background-color: #0070C9;
   border-radius: 10px;
+  text-decoration: none;
 }
 
 .join-final .h-join{
@@ -734,7 +747,9 @@ body{
   margin-top: 36px;
   margin-right: 64px;
   margin-bottom: 27px;
+  text-decoration: none;
 }
+
 
 .content-btn{
   display: flex;
